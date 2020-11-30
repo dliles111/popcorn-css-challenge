@@ -3,3 +3,27 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+.body{
+    margin: 0;
+}
+.airlines-page-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFDBAA;
+    margin: 0;
+}
+
+#site-name {
+    color: #533100;
+}
+
+.navigation-bar-buttons{
+    background: #805215;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+}
