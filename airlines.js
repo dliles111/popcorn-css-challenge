@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded',  ()=> {
         div.className = "information-cards"
         div.id = "group-packages"
         document.getElementById('hidded-section').prepend(div)
-
         let groupP1 = document.createElement('li')
         groupP1.textContent = "Group Package 1"
         let groupP2 = document.createElement('li')
@@ -37,5 +36,11 @@ document.addEventListener('DOMContentLoaded',  ()=> {
 
     })
 
+    letsGoButtonElement.addEventListener("click", ()=>{
+        let form = document.createElement('form')
+        let firstNameElement = document.createElement('label')
+        let lastNameElement = document.createElement('label')
+        let cityDropDown = document.createElement('optgroup')
+    })
 
 })
