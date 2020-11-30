@@ -27,3 +27,73 @@ Main background - #D4A76A*/
     margin-right: 10px;
     border: none;
 }
+.horizontal-rule{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.main-website-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #D4A76A;
+    margin: 0;
+}
+
+.information-cards{
+    margin: 20px 50px 10px;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+.card-title{
+    text-align: center;
+    margin: 0
+}
+.card-text{
+    padding: 10px;
+    margin-left: 10px;
+}
+.card-button{
+    background: #805215;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.main-website-section-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #D4A76A;
+    margin: 0;
+}
+.information-cards-footer{
+    margin: 20px 50px 10px;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.card-title-footer{
+    text-align: center;
+    margin: 0
+}
+.card-text-footer{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.card-button-footer{
+    background: #805215;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
