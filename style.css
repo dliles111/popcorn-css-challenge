@@ -5,18 +5,23 @@ Header Text - #553100
 Main background - #D4A76A*/
 .body{
     margin: 0;
+    background: #D4A76A;
+
 }
 .airlines-page-navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: #FFDBAA;
-    margin: 0;
+    padding: 0 50px;
+    padding-bottom: 15px;
 }
 
 #site-name {
     color: #533100;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
 .navigation-bar-buttons{
@@ -47,8 +52,9 @@ Main background - #D4A76A*/
     background: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 300px;
-
+    box-shadow: 0 0 17px 0 rgba(0,0,0,0.75);
 }
 .card-title{
     text-align: center;
@@ -74,20 +80,29 @@ Main background - #D4A76A*/
     background: #D4A76A;
     margin: 0;
 }
+
 .information-cards-footer{
     margin: 20px 50px 10px;
     padding: 10px;
     background: white;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 17px 0 rgba(0,0,0,0.75);
 }
+
 .card-title-footer{
     text-align: center;
-    margin: 0
+    margin: 0;
+    font-size: 30px;
 }
 .card-text-footer{
     padding: 10px;
     margin-left: 10px;
+    margin-right: 10px;;
+    font-size: large;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
 }
 
 .card-button-footer{
